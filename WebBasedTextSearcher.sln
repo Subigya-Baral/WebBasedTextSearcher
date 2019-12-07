@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WebBasedTextSearcher", "WebBasedTextSearcher\WebBasedTextSearcher.pyproj", "{99259CA3-E3FC-4154-BC42-6BF551A17031}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99259CA3-E3FC-4154-BC42-6BF551A17031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99259CA3-E3FC-4154-BC42-6BF551A17031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99259CA3-E3FC-4154-BC42-6BF551A17031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99259CA3-E3FC-4154-BC42-6BF551A17031}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF4910B0-2D01-44C7-9045-A11E986E507D}
+	EndGlobalSection
+EndGlobal

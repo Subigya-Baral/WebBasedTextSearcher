@@ -1,0 +1,11 @@
+{% extends "TextSearcher/layout.html" %}
+{% block content %}
+<form action="/search-files" method="post">
+	{% csrf_token %}
+	<label for="searchdirectory">Search Directory: </label>
+	<input name="search_directory" type="text"/>
+	<label for="searchtext">Text to Search: </label>
+	<input name="search_text" type="text"/>
+	<input type="submit" value="OK" />
+</form>
+{% endblock %}

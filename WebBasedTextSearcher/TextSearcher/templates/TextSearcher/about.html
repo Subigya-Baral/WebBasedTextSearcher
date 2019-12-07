@@ -1,0 +1,10 @@
+﻿{% extends "TextSearcher/layout.html" %}
+{% block content %}
+<table cellpadding="1">
+{%for c in content%}
+	<tr><td>
+		<a href="/file-list/?file={{c}}" name="filepath">{{c}}</a>
+	</td></tr>
+{%endfor%}
+</table>
+{% endblock %}
