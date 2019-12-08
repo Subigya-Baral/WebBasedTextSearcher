@@ -35,12 +35,13 @@ def doc2string(path,file):
 def open_file(path, filename):
 	text=""
 	lines=doc2string(path,filename)
-	l1 = lines.partition(searchtext)
+	l1 = lines.split(searchtext);
+	list_len= len(l1)-1;
 	for l in l1:
 		if l != searchtext:
 			text=text+l
-		else:
-			text=text+'<span style="background-color: #ff0000">'+l+'</span>'
+		if l1.index(l) != list_len:
+			text=text+'<span style="background-color: #ff0000">'+searchtext+'</span>'
 	return text
 def index(request):
 	return render(request, "TextSearcher/index.html",{'title':"Welcome People!", 'description':'Let\'s search for the text on your directory'})
